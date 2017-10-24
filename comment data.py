@@ -3,6 +3,8 @@
 
 # In[1]:
 
+# In[1]:
+
 import json
 import datetime
 import csv
@@ -17,9 +19,9 @@ except ImportError:
 # In[2]:
 
 #Loading the requirements
-app_id = '305779013219420'
-app_secret = 'a2e645d4a503f2e2326ced754d21e50f'
-#page_id = 'urbanladder'
+app_id = '952557218270273'
+app_secret = 'b17e78e07698cfa0dc2ab0c83056fcc9'
+#page_id = 'myjabong'
 
 access_token = app_id + '|' + app_secret
 access_token
@@ -206,7 +208,8 @@ def fbPageFeedComments(page_id, access_token):
 
 # In[5]:
 
-# fbPageFeedComments("slimjim", access_token)
+fbPageFeedComments("slimjim", access_token)
+
 
 
 # In[ ]:

@@ -3,6 +3,8 @@
 
 # In[1]:
 
+# In[1]:
+
 import json
 import datetime
 import csv
@@ -12,9 +14,9 @@ try:
 except ImportError:
     from urllib2 import urlopen, Request
     
-app_id = '305779013219420'
-app_secret = 'a2e645d4a503f2e2326ced754d21e50f' 
-#page_id = 'urbanladder'
+app_id = '952557218270273'
+app_secret = 'b17e78e07698cfa0dc2ab0c83056fcc9' 
+#page_id = 'myjabong'
 
 access_token = app_id + '|' + app_secret
 access_token
@@ -176,7 +178,15 @@ def scrapeFacebookPageFeedStatus(page_id, access_token, since_date, until_date):
 
 # In[5]:
 
-# scrapeFacebookPageFeedStatus("slimjim", access_token, '11-12-2000', '19-9-2017')
+
+
+
+
+
+
+# In[2]:
+
+scrapeFacebookPageFeedStatus("slimjim", access_token, '10-12-2016', '19-7-2017')
 
 
 # In[ ]:
